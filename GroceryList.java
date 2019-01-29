@@ -11,6 +11,7 @@ public class GroceryList {
     item2 = keyboard.nextLine();
     System.out.print("Item3? ");
     item3 = keyboard.nextLine();
+    
     System.out.println("Please enter the quantity of each item");
     int quantityOfItem1, quantityOfItem2, quantityOfItem3;
     System.out.print("How Many " + item1 + "? ");
@@ -34,6 +35,6 @@ public class GroceryList {
         priceOfItem1 * (float) quantityOfItem1
             + priceOfItem2 * (float) quantityOfItem2
             + priceOfItem3 * (float) quantityOfItem3;
-    System.out.println("Your total cost is " + totalCost);
+    System.out.println("Your total bill is " + totalCost);
   }
 }
