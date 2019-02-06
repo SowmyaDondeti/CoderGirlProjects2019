@@ -11,7 +11,7 @@ public class SandwichShop
         int goalForSoup = 70;
         int veggieSandwichesSold, burgersSold, subsSold, soupSold;
         System.out.print("How many veggie sandwiches are sold today?");
-        veggiesSold = keyboard.nextInt();
+        veggieSandwichesSold = keyboard.nextInt();
         if (veggieSandwichesSold >= goalForVeggieSandwiches)
         {
             System.out.println("Meets goal");
