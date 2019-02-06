@@ -5,14 +5,14 @@ public class SandwichShop
     public static void main(String[] args)
     {
         Scanner keyboard = new Scanner(System.in);
-        int goalForVeggies = 50;
+        int goalForVeggieSandwiches = 50;
         int goalForBurgers = 250;
         int goalForSubs = 180;
         int goalForSoup = 70;
-        int veggiesSold, burgersSold, subsSold, soupSold;
+        int veggieSandwichesSold, burgersSold, subsSold, soupSold;
         System.out.print("How many veggie sandwiches are sold today?");
         veggiesSold = keyboard.nextInt();
-        if (veggiesSold >= goalForVeggies)
+        if (veggieSandwichesSold >= goalForVeggieSandwiches)
         {
             System.out.println("Meets goal");
         }
@@ -51,7 +51,7 @@ public class SandwichShop
             System.out.println("Fell short");
         }
 
-        if (veggiesSold >= goalForVeggies
+        if (veggieSandwichesSold >= goalForVeggieSandwiches
                 && burgersSold >= goalForBurgers
                 && subsSold >= goalForSubs
                 && soupSold >= goalForSoup)
